@@ -2,7 +2,7 @@ import React from "react";
 import {Card} from "react-bootstrap";
 
 
-function createCard (props) {
+const createCard = (props) => {
     return <Card className = "each-card" >
     <Card.Img variant="top" src={props.img} />
     <Card.Body>

@@ -1,16 +1,18 @@
 import React from "react";
 
+import TitlePara from "../title-paragraph/tit-para";
+import headTitlejs from "../../js-files/title-paragraph/head-tit-para";
+
+
 const middleTitle = () => {
     return <div className = "head-middle">
-        <hr></hr>
-        <div className = "head-middle-title">
-            <h1>More Resourses</h1>
-        </div>
-        <div className = "head-middle-para">
-            <p>Have you ever felt stuck on a project and not known what to do with the code? Well we also added a bunch of 
-            resourses on some of the most popular programming languages for Economics and Data Analysis. 
-            </p>
-        </div>
+        <hr/>
+        <TitlePara 
+    titleDiv = {headTitlejs[1].titleDiv} 
+    title = {headTitlejs[1].title} 
+    contentDiv = {headTitlejs[1].contentDiv} 
+    content = {headTitlejs[1].content} />
+        
     </div>
 }
 

@@ -1,20 +1,14 @@
 import React from "react";
+import headTitlejs from "../../js-files/title-paragraph/head-tit-para";
+import TitlePara from "../title-paragraph/tit-para";
 
-const headTitle = () => {
-    return <div className = "head-top-paragraph">
-    <div className = "head-first-title">
-        <h1>Welcome Econ Dukes!</h1>
+const headPageTitle = () => <div className = "head-top-paragraph">
+    <TitlePara 
+    titleDiv = {headTitlejs[0].titleDiv} 
+    title = {headTitlejs[0].title} 
+    contentDiv = {headTitlejs[0].contentDiv} 
+    content = {headTitlejs[0].content} />
+    <hr/>
     </div>
-    <div class ="head-first-para">
-        <p><strong>Hello and Welcome.</strong><br></br>This site is designed to help you navigate through the world of Github. 
-        A collaberative site allowing you to view, share and collaberate on coding projects. Attached are tutorials, 
-        and all sorts of resourses to make the navigating alot easier. <br />
-        We hope you enjoy!
-        </p>
-    </div>
-        <hr />
-    </div>
-    
-}
 
-export default headTitle;
+export default headPageTitle;
