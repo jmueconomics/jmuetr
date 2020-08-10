@@ -16,7 +16,7 @@ function headMoreCards () {
     </Row>
     </Container>
     <div className = "head-resources-cards-btn">
-        <a href="https://github.com/" class="headTopBtn">GO TO GITHUB</a>
+        <a href="https://github.com/" class="headTopBtn">Overview</a>
     </div>
     </div>
 }
