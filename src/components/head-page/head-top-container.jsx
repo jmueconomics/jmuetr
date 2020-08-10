@@ -3,6 +3,7 @@ import headTitlejs from "../../js-files/title-paragraph/head-tit-para";
 import TitlePara from "../title-paragraph/tit-para";
 
 const headPageTitle = () => <div className = "head-top-paragraph">
+    <i class="fas fa-university fa-3x"></i>
     <TitlePara 
     titleDiv = {headTitlejs[0].titleDiv} 
     title = {headTitlejs[0].title} 
