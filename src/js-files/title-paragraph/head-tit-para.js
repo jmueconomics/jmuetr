@@ -19,6 +19,13 @@ const titleParagraph = [
         title: "Github",
         contentDiv: "head-first-para",
         content: "GitHub, Inc. is a United States-based global company that provides hosting for software development and version control using Git. It has been a subsidiary of Microsoft since 2018. It offers the distributed version control and source code management functionality of Git, plus its own features."
+    },
+    {
+        key: 4,
+        titleDiv: "head-first-title",
+        title: "Data Science and Analytics",
+        contentDiv: "head-first-para",
+        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et nunc at risus ornare efficitur quis vitae mauris. Nunc ullamcorper auctor diam vitae vestibulum. In tempor tortor sed massa pulvinar facilisis. Vestibulum ultricies velit id massa ullamcorper semper non vitae odio. Donec ut tincidunt quam, vel finibus ante. In vitae quam faucibus, aliquam sapien non, tempor felis. In mattis, enim nec suscipit tempor, sem velit pellentesque arcu, nec maximus arcu dui eleifend felis. Praesent interdum aliquet orci vel ultricies. Aenean non laoreet nisl."
     }
 ];
 
