@@ -1,7 +1,12 @@
 import React from "react";
 import Header from "../../partials/header";
 import Footer from "../../partials/footer";
+import Rpage from "./r-content";
 
-const rFinal = () => <div><Header/><h1>Hello World!</h1><Footer/></div>
+const rFinal = () => <div>
+<Header/>
+<Rpage />
+<Footer/>
+</div>
 
 export default rFinal;
