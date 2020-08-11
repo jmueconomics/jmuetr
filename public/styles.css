@@ -10,7 +10,9 @@ body {
     background-color: rgba(75, 75, 75, 0.11) !important;
 }
 
-h1, h3, a {
+h1,
+h3,
+a {
     font-weight: 700 !important;
 }
 
@@ -19,7 +21,7 @@ hr {
     border-color: rgb(133, 133, 112) !important;
     border-width: 6px !important;
     width: 6% !important;
-    margin: 0 auto !important; 
+    margin: 0 auto !important;
 }
 
 i:hover {
@@ -40,6 +42,7 @@ i:hover {
 .nav-link:hover {
     color: white !important;
 }
+
 .dropdown-menu {
     background-color: #ffe18e !important;
     border-radius: 20px !important;
@@ -47,6 +50,7 @@ i:hover {
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
 
 }
+
 .dropdown-item {
     background-color: #ffe18e !important;
     border-radius: 20px !important;
@@ -56,6 +60,7 @@ i:hover {
 .dropdown-item:hover {
     color: rgb(255, 255, 255) !important;
 }
+
 .brand-nav {
     font-size: 1.25rem !important;
     color: #ffe18e !important;
@@ -212,28 +217,29 @@ i:hover {
 
 .card:hover {
     width: 350px;
-    background-color: #ffe18e!important;
+    background-color: #ffe18e !important;
     transform: translateY(0);
 }
+
 .card-title {
     font-weight: 700 !important;
 }
 
 /* button */
 .cardBtn {
-    background: linear-gradient(to bottom, #440084 5%, #5f00bd 100%);
+    background: linear-gradient(to bottom, #440084 10%, #5f00bd 100%);
     background-color: #440084;
-    border-radius: 42px;
+    border-radius: 20px;
     display: inline-block;
     cursor: pointer;
     color: #ffffff;
     font-size: 17px;
-    padding: 12px 16px;
+    padding: 14px 16px;
     text-decoration: none;
     text-shadow: 0px 1px 0px #4a008f;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.514);
     transform: translateY(1px);
-    
+
 }
 
 .cardBtn:hover {
@@ -242,7 +248,7 @@ i:hover {
     text-decoration: none;
     color: #f0c465;
     transform: translateY(0);
-    
+
 }
 
 .cardBtn:active {
@@ -251,25 +257,25 @@ i:hover {
 }
 
 .headTopBtn {
-    background: linear-gradient(to bottom, #ffe18e 5%, #f0c465 100%);
+    background: linear-gradient(to bottom, #ffe18e 50%, #f0c465 100%);
     background-color: #ffe18e;
-    border-radius: 42px;
+    border-radius: 20px;
     display: inline-block;
     cursor: pointer;
     color: #5f00bd;
     font-size: 17px;
-    padding: 12px 31px;
+    padding: 14px 31px;
     text-decoration: none;
     text-shadow: 0px 1px 0px #ffe18e;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.514);
-    transform: translateY(2px);
+    transform: translateY(1px);
 }
 
 .headTopBtn:hover {
     background: linear-gradient(to bottom, #f0c465 5%, #ffe18e 100%);
     background-color: #f0c465;
     text-decoration: none;
-    color: white;
+    color: #8000ff;
     transform: translateY(0);
 }
 
