@@ -35,7 +35,20 @@ hr {
 .nav-link:hover {
     color: white !important;
 }
+.dropdown-menu {
+    background-color: #b5a067 !important;
+    border-radius: 20px !important;
+    border: 2px !important;
+}
+.dropdown-item {
+    background-color: #b5a067 !important;
+    border-radius: 20px !important;
+    color: #450084 !important;
+}
 
+.dropdown-item:hover {
+    color: white !important;
+}
 .brand-nav {
     font-size: 1.25rem !important;
     color: #b5a067 !important;
