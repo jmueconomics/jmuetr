@@ -8,8 +8,9 @@ const footDeat = () => {
                     <a href = "https://www.linkedin.com/in/damon-roberts1997/" className = "foot-peaps">Damon Roberts</a>
                 </div>
                 <div className = "foot-bot">
-                    <a href = {"/" + _.lowerCase("Contact")} className = "foot-ct">Contact</a>
-                    <a href = {"/" + _.lowerCase("About")}>About</a>
+                <a href = {"/" + _.lowerCase("About")} className = "foot-ct">About</a>
+                    <a href = {"/" + _.lowerCase("Contact")} >Contact</a>
+                    
                 </div>
     </div>
 }

@@ -1,6 +1,8 @@
 import React from "react";
 import {Navbar, Nav} from "react-bootstrap";
 import HoverDropdown from "./nav-drop";
+import _ from "lodash";
+
 
 
 
@@ -12,10 +14,10 @@ return <Navbar collapseOnSelect  expand="lg" className = "color-nav" variant = "
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto">
       <Nav.Link href="/">Home</Nav.Link>
-      <Nav.Link href = "/github">Github</Nav.Link>
+      <Nav.Link href = {"/" + _.lowerCase("Github")}>Github</Nav.Link>
       <HoverDropdown />
-      <Nav.Link href="/About">About</Nav.Link>
-        <Nav.Link href="/Contact">Contact</Nav.Link>
+      <Nav.Link href={"/" + _.lowerCase("About")}>About</Nav.Link>
+        <Nav.Link href={"/" + _.lowerCase("Contact")}>Contact</Nav.Link>
     </Nav>
   </Navbar.Collapse>
     </Navbar>
