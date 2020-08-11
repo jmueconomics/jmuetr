@@ -3,7 +3,7 @@ import headTitlejs from "../../js-files/title-paragraph/head-tit-para";
 import TitlePara from "../title-paragraph/tit-para";
 
 const githubTitle = () => <div className = "github-page-title">
-    <i class="fab fa-github fa-3x"></i>
+    <i class="fab fa-github fa-4x"></i>
     <TitlePara 
     titleDiv = {headTitlejs[2].titleDiv} 
     title = {headTitlejs[2].title} 
