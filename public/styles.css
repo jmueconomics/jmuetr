@@ -34,7 +34,7 @@ i:hover {
 .color-nav {
     background-color: #440084d7 !important;
     font-size: 1.25rem;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 .nav-link {
@@ -68,7 +68,7 @@ i:hover {
     font-size: 1.25rem !important;
     color: #ffe18e !important;
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 .brand-nav:hover {
@@ -95,7 +95,7 @@ i:hover {
 }
 
 .footer a {
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     color: #450084;
 }
 

@@ -1,4 +1,3 @@
-import React from "react";
 import codePageTemplate from "../created-functions/code-pages-template";
 import titlePara from "../../js-files/title-paragraph/head-tit-para";
 import snip from "../../js-files/head-page/snip-bit";
