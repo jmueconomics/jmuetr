@@ -322,7 +322,7 @@ i:hover {
     transition: transform .35s;
 }
 .snip-class {
-    width: 50%;
+    width: 80%;
     border-radius: 30px;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
     border: 2px;
