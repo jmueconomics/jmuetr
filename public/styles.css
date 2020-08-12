@@ -307,7 +307,7 @@ i:hover {
 .git-tutorial-title,
 .git-resource-title {
     text-align: center;
-    padding: 10% 10% 3% 10%;
+    padding: 10% 10% 6% 10%;
 }
 
 .git-tut-cards {
@@ -331,6 +331,10 @@ i:hover {
 .snip-div:hover {
     transform: scale(1.25); 
 }
+
+.snip-title {
+    padding-top: 8%;
+}
 .middle-bullets-content {
     padding-bottom: 8%; 
 }
@@ -342,8 +346,10 @@ i:hover {
 }
 .over-cards {
     padding-top: 8%;
+    padding-bottom: 6%;
 }
 
-.r-snip {
+.r-snip, .pyt-snip {
     padding-top: 8%;
+    padding-bottom: 10%;
 }
