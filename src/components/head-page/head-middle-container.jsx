@@ -1,6 +1,6 @@
 import React from "react";
 
-import TitlePara from "../title-paragraph/tit-para";
+import TitlePara from "../created-functions/tit-para";
 import headTitlejs from "../../js-files/title-paragraph/head-tit-para";
 
 

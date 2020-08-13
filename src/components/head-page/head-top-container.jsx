@@ -1,6 +1,6 @@
 import React from "react";
 import headTitlejs from "../../js-files/title-paragraph/head-tit-para";
-import TitlePara from "../title-paragraph/tit-para";
+import TitlePara from "../created-functions/tit-para";
 
 const headPageTitle = () => <div className = "head-top-paragraph">
     <i class="fas fa-university fa-4x"></i>

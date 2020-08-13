@@ -4,7 +4,9 @@ import {Card} from "react-bootstrap";
 
 const createCard = (props) => {
     return <Card className = "each-card" >
-    <Card.Img variant="top" src={props.img} />
+    <div>
+    <Card.Img variant="top" src={props.img} className = {props.imgClass} />
+    </div>
     <Card.Body>
       <Card.Title className = "card-title">{props.title}</Card.Title>
       <Card.Text>

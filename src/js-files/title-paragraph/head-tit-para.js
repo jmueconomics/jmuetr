@@ -47,6 +47,13 @@ const titleParagraph = [
         title: "SQL Database Management",
         contentDiv: "head-first-para",
         content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et nunc at risus ornare efficitur quis vitae mauris. Nunc ullamcorper auctor diam vitae vestibulum. In tempor tortor sed massa pulvinar facilisis. Vestibulum ultricies velit id massa ullamcorper semper non vitae odio. Donec ut tincidunt quam, vel finibus ante. In vitae quam faucibus, aliquam sapien non, tempor felis. In mattis, enim nec suscipit tempor, sem velit pellentesque arcu, nec maximus arcu dui eleifend felis. Praesent interdum aliquet orci vel ultricies. Aenean non laoreet nisl."
+    },
+    {
+        key: 8,
+        titleDiv: "head-first-title",
+        title: "Contact Us",
+        contentDiv: "head-first-para contact-para",
+        content: "Please do not hesitate to contact if you have any questions about Github, Code or need any help."
     }
 
 ];

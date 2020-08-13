@@ -1,8 +1,8 @@
 import React from "react";
 
-import Cards from "../card-folder/three-cards";
+import Cards from "../created-functions/three-cards";
 import headCards from "../../js-files/head-page/head-top-card-content";
-import CreateButton from "../buttons/main-button";
+import CreateButton from "../created-functions/main-button";
 
 
 const headTop = () => <div className = "head-github-container">

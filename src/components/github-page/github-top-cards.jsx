@@ -1,5 +1,5 @@
 import React from "react";
-import Cards from "../card-folder/three-cards";
+import Cards from "../created-functions/three-cards";
 import array from "../../js-files/head-page/head-top-card-content";
 
 

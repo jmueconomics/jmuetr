@@ -1,5 +1,5 @@
 import React from "react";
-import createButton from "../buttons/main-button";
+import createButton from "../created-functions/main-button";
 import {Container, Row, Col} from "react-bootstrap";
 
 const gitButtons = () => 
