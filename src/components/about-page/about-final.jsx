@@ -1,7 +1,13 @@
 import React from "react";
 import Header from "../../partials/header";
 import Footer from "../../partials/footer";
+import AboutWords from "./about-tit-para";
 
-const aboutFinal = () => <div><Header/><h1>Still Under Maintence <i class="fas fa-tools"></i></h1><Footer/></div>
+
+const aboutFinal = () => <div>
+<Header/>
+<AboutWords/>
+<Footer/>
+</div>
 
 export default aboutFinal;

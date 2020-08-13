@@ -353,3 +353,11 @@ i:hover {
     padding-top: 8%;
     padding-bottom: 10%;
 }
+
+.about-para {
+    padding-bottom: 0%;
+}
+.about-para p {
+    padding: 3%;
+}
+
