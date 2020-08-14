@@ -3,7 +3,8 @@ import {Card} from "react-bootstrap";
 
 
 const createCard = (props) => {
-    return <Card className = "each-card" >
+    return <a href={props.btnSrc}>
+    <Card className = "each-card" >
     <div>
     <Card.Img variant="top" src={props.img} className = {props.imgClass} />
     </div>
@@ -12,9 +13,9 @@ const createCard = (props) => {
       <Card.Text>
         {props.content}
       </Card.Text>
-      <a href={props.btnSrc} class="cardBtn">{props.btnTitle}</a>
     </Card.Body>
     </Card>
+  </a>
 }
 
 export default createCard;
