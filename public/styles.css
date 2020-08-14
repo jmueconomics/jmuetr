@@ -14,13 +14,7 @@ h1,
 h3,
 a {
     font-weight: 700 !important;
-    text-decoration: none !important;
 }
-
-a:hover {
-    text-decoration: none !important;
-}
-
 hr {
     border-style: dotted none none !important;
     border-color: rgb(133, 133, 112) !important;
@@ -226,12 +220,14 @@ i:hover {
     box-sizing: border-box;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
     transition: transform .35s;
+    text-decoration: none !important;
 }
 
 .card:hover {
     transform: scale(1.1);
     z-index: 1;
     background-color: rgba(252, 230, 168, 0.603) !important;
+    text-decoration: none !important;
 }
 
 .card-title {
