@@ -2,8 +2,9 @@ import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
 import Card from "./card";
 
-const threeCards = (titleDiv, threeDiv, title, arr, containerSpace) => {
-    return <div>
+//react bootstrap
+const threeCards = (titleDiv, threeDiv, title, arr, containerSpace) => 
+    <div>
        <div className = {titleDiv}>
            <h3>{title}</h3>
        </div>
@@ -15,6 +16,6 @@ const threeCards = (titleDiv, threeDiv, title, arr, containerSpace) => {
            </div>
        </Container>
    </div>
-}
+
 
 export default threeCards;

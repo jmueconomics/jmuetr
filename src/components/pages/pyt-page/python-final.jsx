@@ -3,10 +3,11 @@ import Header from "../../../partials/header";
 import Footer from "../../../partials/footer";
 import PythonContent from "./python-content";
 
-const pythonFinal = () => <div>
-<Header/>
-<PythonContent/>
-<Footer/>
-</div>
+const pythonFinal = () => 
+    <div>
+        <Header/>
+        <PythonContent/>
+        <Footer/>
+    </div>
 
 export default pythonFinal;

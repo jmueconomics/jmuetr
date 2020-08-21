@@ -138,11 +138,6 @@ i:hover {
     text-align: center;
 }
 
-.head-top-paragraph {
-    text-align: center;
-    padding: 6% 10% 8% 10%;
-}
-
 .head-first-title {
     padding-bottom: 3%;
     padding-top: 5%;
@@ -190,12 +185,13 @@ i:hover {
 }
 
 
-.head-bp {
-    padding-top: 8%;
-}
+
+
+
+
 
 /* Card */
-
+/**********************************************************************/
 
 .card-img-top {
     border-top-left-radius: 20px !important;
@@ -206,7 +202,7 @@ i:hover {
 
 .card {
     border-radius: 25px !important;
-    width: 240px !important;
+    width: 250px !important;
     background-color: rgb(230, 230, 230) !important;
     border: 1px !important;
     box-sizing: border-box;
@@ -219,6 +215,10 @@ i:hover {
     transform: scale(1.1);
     z-index: 1;
     background-color: rgba(252, 230, 168, 0.603) !important;
+    
+}
+
+.cardA:hover {
     text-decoration: none !important;
 }
 
@@ -226,7 +226,11 @@ i:hover {
     font-weight: 700 !important;
 }
 
+
+
 /* button */
+/*************************************************************************************/
+
 .cardBtn {
     background: linear-gradient(to bottom, #440084 10%, #5f00bd 100%);
     background-color: #440084;
@@ -285,7 +289,11 @@ i:hover {
     top: 1px;
 }
 
+
+
+
 /* Github */
+/********************************************************************************/
 
 .git-tutorial-title,
 .git-resource-title {
@@ -297,7 +305,12 @@ i:hover {
     padding: 0% 10% 8% 10%;
 }
 
+
+
+
 /* Code Pages */
+/*******************************************************************************/
+
 
 .snip-div {
     padding: 0% 10% 8% 10%;
@@ -316,14 +329,6 @@ i:hover {
     padding-top: 8%;
 }
 
-
-
-.over-bullets {
-    padding-bottom: 0%;
-}
-
-
-
 .over-cards {
     padding-top: 8%;
     padding-bottom: 6%;
@@ -335,17 +340,6 @@ i:hover {
     padding-bottom: 10%;
 }
 
-.about-para {
-    padding-bottom: 0%;
-}
-
-.about-para p {
-    padding: 3%;
-}
-
-.contact-page {
-    padding-bottom: 2%;
-}
 
 .contact-class {
     padding: 3% auto !important;

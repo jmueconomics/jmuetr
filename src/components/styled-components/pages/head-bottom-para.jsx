@@ -10,4 +10,37 @@ const HeadBp = styled.div`
     padding-top: 8%;
 `;
 
-export {HeadBottomPara, HeadBp};
+const HeadBpSnip = styled.div`
+    padding-top: 8%;
+    padding-bottom: 8%;
+`;
+
+const SnipBtn = styled.button`
+    background: linear-gradient(to bottom, #ffe18e 50%, #f0c465 100%);
+    background-color: #ffe18e;
+    border-radius: 20px;
+    display: inline-block;
+    cursor: pointer;
+    color: #5f00bd;
+    font-size: 17px;
+    padding: 14px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffe18e;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.514);
+    transition: transform .35s;
+    font-weight: 700;
+    border: none;
+
+    &:hover {
+        background: linear-gradient(to bottom, #f0c465 5%, #ffe18e 100%);
+        background-color: #f0c465;
+        text-decoration: none;
+        color: #8000ff;
+        transform: scale(1.25);
+    }
+    &:focus {
+        outline: none;
+    }
+    `;
+
+export {HeadBottomPara, HeadBp, HeadBpSnip, SnipBtn};

@@ -6,7 +6,7 @@ import {GithubPageTitle} from "../../styled-components/pages/head-github-contain
 
 const githubTitle = () => 
     <GithubPageTitle>
-        <i class="fab fa-github fa-4x"></i>
+        <i className ="fab fa-github fa-4x"></i>
         <TitlePara 
         titleDiv = {headTitlejs[2].titleDiv} 
         title = {headTitlejs[2].title} 

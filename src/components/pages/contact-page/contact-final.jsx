@@ -3,14 +3,15 @@ import Header from "../../../partials/header";
 import Footer from "../../../partials/footer";
 import ContactTitlePara from "./contact-tit-para";
 import ContactCards from "./contact-content";
+import {ContactTopPara} from "../../styled-components/pages/head-contact";
 
 const contactFinal = () => 
 <div>
     <Header/>
-    <div className = "head-top-paragraph contact-page">
-    <ContactTitlePara/>
-    <ContactCards />
-    </div>
+    <ContactTopPara>
+        <ContactTitlePara/>
+        <ContactCards />
+    </ContactTopPara>
     <Footer/>
 </div>
 

@@ -10,6 +10,24 @@ const HeadResourcesCard = styled.div`
     padding: 0% 2% 8% 2%;
 `;
 
+const HeadFirstTitle = styled.div`
+    padding-bottom: 3%;
+    padding-top: 5%;
+`;
 
+const AboutParaDiv = styled.div`
+    padding-bottom: 0%;
+    font-size: 1.25rem;
+`;
 
-export {HeadResourcesCard, HeadTopContainer };
+const AboutPara = styled.p`
+    padding: 3%;
+`;
+
+export {
+    HeadResourcesCard, 
+    HeadTopContainer,
+    HeadFirstTitle, 
+    AboutParaDiv,
+    AboutPara 
+};

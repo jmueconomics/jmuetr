@@ -5,7 +5,7 @@ import {HeadTopContainer} from "../../styled-components/pages/head-resources-car
 
 const topPageOver = () =>
     <HeadTopContainer>
-        <i class="fas fa-globe fa-4x"></i>
+        <i className ="fas fa-globe fa-4x"></i>
         <TitlePara 
         titleDiv = {headTitlejs[3].titleDiv} 
         title = {headTitlejs[3].title} 
