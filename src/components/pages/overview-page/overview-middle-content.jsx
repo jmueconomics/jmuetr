@@ -1,20 +1,20 @@
 import React from "react";
+import {MiddleBulletsContent, HeadBulPara, OverBulletsTitle} from "../../styled-components/pages/head-bullets";
 
+const middleContent = () => 
+    <MiddleBulletsContent>
+        <hr/>
+        <HeadBulPara>
+            <OverBulletsTitle>
+                <h3>Top 3 Things About Data Science</h3>     
+            </OverBulletsTitle>
+            <div>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li>
+                <li>Lorem ipsum.</li> 
+            </div>
+        </HeadBulPara>
+    </MiddleBulletsContent>
 
-const middleContent = () => { 
-    return <div className = "middle-bullets-content">
-    <hr/>
-    <div className = "head-bottom-para over-bullets">
-    <div className = "over-bullets-title">
-        <h3>Top 3 Things About Data Science</h3>     
-    </div>
-        <div>
-            <li>Lorem ipsum.</li>
-            <li>Lorem ipsum.</li>
-            <li>Lorem ipsum.</li> 
-        </div>
-    </div>
-</div>
-}
 
 export default middleContent;

@@ -4,7 +4,7 @@ import Snip from "../../created-functions/snip";
 
 const snippet = () => 
     <div>
-    <Snip className = {snipObj[0].className}
+        <Snip className = {snipObj[0].className}
         img = {snipObj[0].img}
         alt = {snipObj[0].altName}
         divName = {snipObj[0].divName} 

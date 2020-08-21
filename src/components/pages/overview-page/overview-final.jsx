@@ -9,14 +9,14 @@ import MiddleCards from "./over-view-resources";
 
 
 const overviewFinal = () => 
-<div>
-<Header/>
-<TitPara/>
-<Snip />
-<MiddleContent/>
-<MiddleCards />
-<Footer/>
-</div>
+    <div>
+        <Header/>
+        <TitPara/>
+        <Snip />
+        <MiddleContent/>
+        <MiddleCards />
+        <Footer/>
+    </div>
 
 export default overviewFinal;
 
