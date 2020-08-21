@@ -8,16 +8,14 @@ import {GithubTopCards, GithubBottomCards} from "./github-top-cards";
 
 
 
-const gitHub = () => {
-    return <div>
-    <Header />
-    <Title />
-    <Buttons />
-    <GithubTopCards />
-    <GithubBottomCards />
-    <Footer />
+const gitHub = () => 
+    <div>
+        <Header />
+        <Title />
+        <Buttons />
+        <GithubTopCards />
+        <GithubBottomCards />
+        <Footer />
     </div>
     
-}
-
 export default gitHub;

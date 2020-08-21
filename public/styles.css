@@ -126,6 +126,13 @@ i:hover {
     padding-right: 20px;
 }
 
+
+
+
+
+
+
+/********************************************************************************/
 /* Head Page */
 .title-paragraph {
     text-align: center;
@@ -146,10 +153,6 @@ i:hover {
     font-size: 1.25rem;
 }
 
-.head-github-container {
-    text-align: center;
-}
-
 .head-github-title {
     padding: 0% 2% 4% 2%;
 }
@@ -161,12 +164,6 @@ i:hover {
 
 .head-github-btn {
     padding: 4% 2% 2% 2%;
-}
-
-.head-middle {
-    text-align: center;
-    padding: 6% 10% 3% 10%;
-    font-size: 1.25rem;
 }
 
 .head-middle-title {
@@ -192,11 +189,6 @@ i:hover {
     text-align: center;
 }
 
-.head-bottom-para {
-    text-align: center;
-    padding: 0% 10% 6% 10%;
-    font-size: 1.25rem;
-}
 
 .head-bp {
     padding-top: 8%;
@@ -294,18 +286,6 @@ i:hover {
 }
 
 /* Github */
-.git-buttons-div {
-    padding-bottom: 10%;
-}
-
-.github-page-title {
-    text-align: center;
-    text-align: center;
-    padding: 6% 10% 8% 10%;
-    font-size: 1.25rem;
-}
-
-
 
 .git-tutorial-title,
 .git-resource-title {

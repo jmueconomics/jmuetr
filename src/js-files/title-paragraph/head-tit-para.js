@@ -9,7 +9,7 @@ const titleParagraph = [
     {
         key: 2,
         titleDiv: "head-middle-title",
-        title: "More Resourses",
+        title: "More Resources",
         contentDiv: "head-middle-para",
         content: "Have you ever felt stuck on a project and not known what to do with the code? Well we also added a bunch of resourses on some of the most popular programming languages for Economics and Data Analysis. "
     },

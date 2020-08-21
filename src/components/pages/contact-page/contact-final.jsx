@@ -6,12 +6,12 @@ import ContactCards from "./contact-content";
 
 const contactFinal = () => 
 <div>
-<Header/>
-<div className = "head-top-paragraph contact-page">
-<ContactTitlePara/>
-<ContactCards />
-</div>
-<Footer/>
+    <Header/>
+    <div className = "head-top-paragraph contact-page">
+    <ContactTitlePara/>
+    <ContactCards />
+    </div>
+    <Footer/>
 </div>
 
 export default contactFinal;

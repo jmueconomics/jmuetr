@@ -11,13 +11,13 @@ import BottomPara from "./bottom-paragraph";
 
 const headPageFinal = () => {
     return <div>
-    <Header />
-    <HeadPageTitle />
-    <HeadTopCards />
-    <HeadMiddleTitle />
-    <HeadMoreCards />
-    <BottomPara />
-    <Footer />
+      <Header />
+      <HeadPageTitle />
+      <HeadTopCards />
+      <HeadMiddleTitle />
+      <HeadMoreCards />
+      <BottomPara />
+      <Footer />
   </div>
 }
 
