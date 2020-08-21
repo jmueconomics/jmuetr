@@ -2,7 +2,7 @@ import React from "react";
 
 const createButton = (divClass, link, btnClass, btnTitle) => {
     return <div className = {divClass}>
-        <a href={link} class={btnClass}>{btnTitle}</a>
+        <a href={link} className ={btnClass}>{btnTitle}</a>
     </div>
 }
 

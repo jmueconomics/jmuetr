@@ -1,11 +1,11 @@
-import Home from "../components/head-page/head-page-final";
-import Github from "../components/github-page/github-final";
-import DataScience from "../components/overview-page/overview-final";
-import Python from "../components/pyt-page/python-final";
-import SQL from "../components/sql-page/sql-final";
-import R from "../components/r-page/r-final";
-import About from "../components/about-page/about-final";
-import Contact from "../components/contact-page/contact-final";
+import Home from "../components/pages/head-page/head-page-final";
+import Github from "../components/pages/github-page/github-final";
+import DataScience from "../components/pages/overview-page/overview-final";
+import Python from "../components/pages/pyt-page/python-final";
+import SQL from "../components/pages/sql-page/sql-final";
+import R from "../components/pages/r-page/r-final";
+import About from "../components/pages/about-page/about-final";
+import Contact from "../components/pages/contact-page/contact-final";
 import _ from "lodash";
 
 

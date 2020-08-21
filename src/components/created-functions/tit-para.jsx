@@ -6,7 +6,7 @@ const titPara = (props) => {
     <div className = {props.titleDiv}>
         <h1>{props.title}</h1>
     </div>
-    <div class ={props.contentDiv}>
+    <div className ={props.contentDiv}>
         <p>{props.content}</p>
     </div>
 </div>
