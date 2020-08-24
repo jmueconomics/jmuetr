@@ -2,16 +2,16 @@ const titleParagraph = [
     {
         key: 1,
         titleDiv: "head-first-title",
-        title: "Welcome Econ Dukes!",
+        title: "Welcome Students, Faculty, and Alumni!",
         contentDiv: "head-first-para",
-        content: "Hello and Welcome. This site is designed to help you navigate through the world of Github. A collaberative site allowing you to view, share and collaberate on coding projects. Attached are tutorials, and all sorts of resourses to make the navigating alot easier. We hope you enjoy!"
+        content: "This site is primarily designed to help students, faculty, and alumni collaborate and engage on technical projects in our Github Repository. Additionally, we offer free tutorials and resources on Data Analysis, Data Science, and Github using programming languages such as Python, SQL, and R. We hope you enjoy!"
     },
     {
         key: 2,
         titleDiv: "head-middle-title",
         title: "More Resources",
         contentDiv: "head-middle-para",
-        content: "Have you ever felt stuck on a project and not known what to do with the code? Well we also added a bunch of resourses on some of the most popular programming languages for Economics and Data Analysis. "
+        content: "Want to learn how to code? Have you ever felt stuck on a project? Not sure what to do with your free time? If you answered yes to any of these questions, feel free to use our resourses below to learn some of the most popular programming languages for Economics, Data Analysis, and Data Science. "
     },
     {
         key: 3,
