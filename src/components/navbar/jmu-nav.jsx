@@ -8,8 +8,8 @@ import _ from "lodash";
 
 const JMUnav = () => {
 
-return <Navbar collapseOnSelect  expand="lg" className = "color-nav" variant = "light">
-    <Navbar.Brand className = "brand-nav" href="/"><img className = "logo-pic" src = "https://www.jmu.edu/identity/_files/JMU-block-RGB-gold.png" alt = "jmulogo"></img>Economics Github</Navbar.Brand>
+return <Navbar collapseOnSelect expand="lg" className = "color-nav" variant = "dark">
+    <Navbar.Brand className = "brand-nav" href="/"><img className = "logo-pic" src = "https://www.jmu.edu/identity/_files/JMU-block-RGB-white.png" alt = "jmulogo"></img>Economics Github</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto">

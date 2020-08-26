@@ -2,22 +2,22 @@
 /**/
 
 * {
-    font-family: 'Spartan', sans-serif;
-    color: #450084;
+    font-family: 'Maven Pro', sans-serif;
+    color: #27004b;
 }
 
 body {
-    background-color: rgba(75, 75, 75, 0.11) !important;
+    background-color: rgb(245, 245, 245) !important;
 }
 
 h1,
 h3,
 a {
-    font-weight: 700 !important;
+    font-weight: 400 !important;
 }
 hr {
     border-style: dotted none none !important;
-    border-color: rgb(133, 133, 112) !important;
+    border-color: rgb(122, 122, 122) !important;
     border-width: 6px !important;
     width: 6% !important;
     margin: 0 auto !important;
@@ -28,57 +28,57 @@ i {
 }
 
 i:hover {
-    color: #ffce48 !important;
+    color: #ffe18e !important;
     transform: scale(1.6);
 }
 
 .color-nav {
-    background-color: #440084d7 !important;
+    background-color: #27004b !important;
     font-size: 1.25rem;
     letter-spacing: 2px;
 }
 
 .nav-link {
-    color: #ffe18e !important;
-    font-weight: 900 !important;
+    color: rgb(255, 255, 255) !important;
+    font-weight: 400 !important;
 }
 
 .nav-link:hover {
-    color: white !important;
+    color: #ffe18e !important;
 }
 
 .dropdown-menu {
-    background-color: #ffe18e !important;
+    background-color: #27004b !important;
     border-radius: 20px !important;
     border: 2px !important;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
 
 }
 
 .dropdown-item {
-    background-color: #ffe18e !important;
+    background-color: #27004b !important;
     border-radius: 20px !important;
-    color: #450084 !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 .dropdown-item:hover {
-    color: rgb(255, 255, 255) !important;
+    color: #ffe18e !important;
 }
 
 .brand-nav {
     font-size: 1.25rem !important;
-    color: #ffe18e !important;
-    font-weight: 700;
+    color: rgb(255, 255, 255) !important;
+    font-weight: 400;
     letter-spacing: 2px;
 }
 
 .brand-nav:hover {
-    color: white !important;
+    color: #ffe18e !important;
 }
 
 .logo-pic {
-    height: 100px;
-    width: 125px;
+    width: 150px;
+    padding-right: 10px;
 }
 
 .dropdown-toggle:hover .navbar {
@@ -88,26 +88,26 @@ i:hover {
 /* Footer */
 
 .footer {
-    padding: 2% 2%;
+    padding: 3% 2% 2% 2%;
     font-size: 0.9rem;
     background-color: #ffe18e !important;
-    color: #450084;
+    color: #27004b;
     text-align: center;
 }
 
 .footer a {
     letter-spacing: 2px;
-    color: #450084;
+    color: #27004b;
 }
 
 .footer a:hover {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .footer p {
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .foot-top {
@@ -163,7 +163,7 @@ i:hover {
 
 .head-middle-title {
     padding-top: 8%;
-    padding-bottom: 1%;
+    padding-bottom: 4%;
 }
 
 .head-middle-para {
@@ -194,27 +194,27 @@ i:hover {
 /**********************************************************************/
 
 .card-img-top {
-    border-top-left-radius: 20px !important;
-    border-top-right-radius: 20px !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
     height: 150px;
     width: 200px;
 }
 
 .card {
-    border-radius: 25px !important;
+    border-radius: 10px !important;
     width: 250px !important;
-    background-color: rgb(230, 230, 230) !important;
+    background-color: rgb(245, 245, 245) !important;
     border: 1px !important;
     box-sizing: border-box;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
     transition: transform .35s;
     text-decoration: none !important;
 }
 
 .card:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     z-index: 1;
-    background-color: rgba(252, 230, 168, 0.603) !important;
+    background-color: #ffe18e !important;;
     
 }
 
@@ -223,7 +223,7 @@ i:hover {
 }
 
 .card-title {
-    font-weight: 700 !important;
+    font-weight: 600 !important;
 }
 
 
@@ -231,30 +231,6 @@ i:hover {
 /* button */
 /*************************************************************************************/
 
-.cardBtn {
-    background: linear-gradient(to bottom, #440084 10%, #5f00bd 100%);
-    background-color: #440084;
-    border-radius: 20px;
-    display: inline-block;
-    cursor: pointer;
-    color: #ffffff;
-    font-size: 17px;
-    padding: 14px 16px;
-    text-decoration: none;
-    text-shadow: 0px 1px 0px #4a008f;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.514);
-    transition: transform .35s;
-
-}
-
-.cardBtn:hover {
-    background: linear-gradient(to bottom, #5f00bd 5%, #440084 100%);
-    background-color: #5f00bd;
-    text-decoration: none;
-    color: #f0c465;
-    transform: scale(1.25);
-
-}
 
 .cardBtn:active {
     position: relative;
@@ -264,24 +240,25 @@ i:hover {
 .headTopBtn {
     background: linear-gradient(to bottom, #ffe18e 50%, #f0c465 100%);
     background-color: #ffe18e;
-    border-radius: 20px;
+    border-radius: 10px;
     display: inline-block;
     cursor: pointer;
-    color: #5f00bd;
-    font-size: 17px;
-    padding: 14px 31px;
+    color: #27004b;
+    font-size: 16px;
+    font-weight: 600 !important;
+    padding: 15px 24px;
     text-decoration: none;
     text-shadow: 0px 1px 0px #ffe18e;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.514);
-    transition: transform .35s;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transition: transform .5s;
 }
 
 .headTopBtn:hover {
     background: linear-gradient(to bottom, #f0c465 5%, #ffe18e 100%);
     background-color: #f0c465;
     text-decoration: none;
-    color: #8000ff;
-    transform: scale(1.25);
+    color: #27004b;
+    transform: scale(1.05);
 }
 
 .headTopBtn:active {
@@ -289,8 +266,19 @@ i:hover {
     top: 1px;
 }
 
+.navbar-toggler-icon {
+    color: white !important;
+}
 
-
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none !important;
+    box-shadow: none;
+    color: white !important;
+}
 
 /* Github */
 /********************************************************************************/
@@ -320,7 +308,7 @@ i:hover {
 .snip-class {
     width: 100%;
     border-radius: 30px;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
     border: 2px;
 
 }
@@ -346,7 +334,7 @@ i:hover {
     border-radius: 100% !important;
     width: 150px !important;
     border: 3px !important;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.205) !important;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.205) !important;
 }
 
 

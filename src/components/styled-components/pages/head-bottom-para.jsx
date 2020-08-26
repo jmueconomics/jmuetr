@@ -21,21 +21,21 @@ const SnipBtn = styled.button`
     border-radius: 20px;
     display: inline-block;
     cursor: pointer;
-    color: #5f00bd;
+    color: #27004b;
     font-size: 17px;
     padding: 14px 31px;
     text-decoration: none;
     text-shadow: 0px 1px 0px #ffe18e;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.514);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.514);
     transition: transform .35s;
-    font-weight: 700;
+    font-weight: 600;
     border: none;
 
     &:hover {
         background: linear-gradient(to bottom, #f0c465 5%, #ffe18e 100%);
         background-color: #f0c465;
         text-decoration: none;
-        color: #8000ff;
+        color: #27004b;
         transform: scale(1.25);
     }
     &:focus {

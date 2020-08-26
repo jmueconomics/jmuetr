@@ -11,7 +11,7 @@ const threeCards = (titleDiv, threeDiv, title, arr, containerSpace) =>
        <Container>
            <div className = {threeDiv}>
                <Row>
-                   {arr.map(e => <Col className = "headGitCards" md={containerSpace}><Card key = {e.key} img = {e.img} title = {e.title} content = {e.content} btnSrc = {e.btnSrc} /></Col>)}
+                   {arr.map(e => <Col key = {e.key} className = "headGitCards" md={containerSpace}><Card  img = {e.img} title = {e.title} content = {e.content} btnSrc = {e.btnSrc} /></Col>)}
                </Row>
            </div>
        </Container>

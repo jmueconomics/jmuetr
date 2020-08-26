@@ -1,6 +1,6 @@
 const sqlTutorials = [
     {
-        key: 1,
+        key: 132425325,
         img: "https://ichef.bbci.co.uk/news/410/cpsprodpb/37B5/production/_89716241_thinkstockphotos-523060154.jpg",
         title: "The Dice Machine",
         content: "This is a game where you don't when you win, and you don't know when you lose its a total game of deception.",
@@ -8,14 +8,14 @@ const sqlTutorials = [
         
     },
     {
-        key: 2,
+        key: 22223454,
         img: "https://media.nesta.org.uk/images/Predictions-2019_Twitter_02.width-1200.png",
         title: "LightBulb Bingo",
         content: "A new form of Bingo that is played with lightbulbs. Lots of glass broken and lots of winners.",
         btnSrc: "/github"
     },
     {
-        key: 3,
+        key: 3342455413,
         img: "https://www.randomlists.com/img/world-city-maps/belgrade.webp",
         title: "Google Maps Risk",
         content: "Take over the world with this Google maps inspired version of Risk. Conquer the world!",
@@ -25,7 +25,7 @@ const sqlTutorials = [
 
 const sqlResources = [
     {
-        key: 1,
+        key: 14323446,
         img: "https://ichef.bbci.co.uk/news/410/cpsprodpb/37B5/production/_89716241_thinkstockphotos-523060154.jpg",
         title: "The Dice Machine",
         content: "This is a game where you don't when you win, and you don't know when you lose its a total game of deception.",
@@ -33,14 +33,14 @@ const sqlResources = [
         
     },
     {
-        key: 2,
+        key: 2646363464,
         img: "https://media.nesta.org.uk/images/Predictions-2019_Twitter_02.width-1200.png",
         title: "LightBulb Bingo",
         content: "A new form of Bingo that is played with lightbulbs. Lots of glass broken and lots of winners.",
         btnSrc: "/github"
     },
     {
-        key: 3,
+        key: 3555544,
         img: "https://www.randomlists.com/img/world-city-maps/belgrade.webp",
         title: "Google Maps Risk",
         content: "Take over the world with this Google maps inspired version of Risk. Conquer the world!",
