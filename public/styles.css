@@ -63,6 +63,9 @@ i:hover {
 .home {
     color:white !important;
 }
+.home:hover {
+    transform: none;
+}
 .dropdown-item:hover {
     color: #ffe18e !important;
 }

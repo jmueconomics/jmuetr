@@ -36,7 +36,7 @@ const SnipBtn = styled.button`
         background-color: #f0c465;
         text-decoration: none;
         color: #27004b;
-        transform: scale(1.25);
+        transform: scale(1.05);
     }
     &:focus {
         outline: none;
