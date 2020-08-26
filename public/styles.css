@@ -1,0 +1,346 @@
+/* Header Navbar */
+/**/
+
+* {
+    font-family: 'Maven Pro', sans-serif;
+    color: #27004b;
+}
+
+body {
+    background-color: rgb(245, 245, 245) !important;
+}
+
+h1,
+h3,
+a {
+    font-weight: 400 !important;
+}
+hr {
+    border-style: dotted none none !important;
+    border-color: rgb(122, 122, 122) !important;
+    border-width: 6px !important;
+    width: 6% !important;
+    margin: 0 auto !important;
+}
+
+i {
+    transition: transform .35s;
+}
+
+i:hover {
+    color: #ffe18e !important;
+    transform: scale(1.6);
+}
+
+.color-nav {
+    background-color: #27004b !important;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255) !important;
+    font-weight: 400 !important;
+}
+
+.nav-link:hover {
+    color: #ffe18e !important;
+}
+
+.dropdown-menu {
+    background-color: #27004b !important;
+    border-radius: 20px !important;
+    border: 2px !important;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+
+}
+
+.dropdown-item {
+    background-color: #27004b !important;
+    border-radius: 20px !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.dropdown-item:hover {
+    color: #ffe18e !important;
+}
+
+.brand-nav {
+    font-size: 1.25rem !important;
+    color: rgb(255, 255, 255) !important;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.brand-nav:hover {
+    color: #ffe18e !important;
+}
+
+.logo-pic {
+    width: 150px;
+    padding-right: 10px;
+}
+
+.dropdown-toggle:hover .navbar {
+    display: block !important;
+}
+
+/* Footer */
+
+.footer {
+    padding: 3% 2% 2% 2%;
+    font-size: 0.9rem;
+    background-color: #ffe18e !important;
+    color: #27004b;
+    text-align: center;
+}
+
+.footer a {
+    letter-spacing: 2px;
+    color: #27004b;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.footer p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.foot-top {
+    display: block;
+    padding-bottom: 1%;
+    font-size: 0.9rem;
+}
+
+.foot-bot {
+    padding-bottom: 2%;
+    font-size: 0.7rem;
+}
+
+.foot-dan,
+.foot-ct {
+    padding-right: 20px;
+}
+
+
+
+
+
+
+
+/********************************************************************************/
+/* Head Page */
+.title-paragraph {
+    text-align: center;
+}
+
+.head-first-title {
+    padding-bottom: 3%;
+    padding-top: 5%;
+}
+
+.head-first-para {
+    padding-bottom: 10%;
+    font-size: 1.25rem;
+}
+
+.head-github-title {
+    padding: 0% 2% 4% 2%;
+}
+
+.each-card {
+    position: relative !important;
+    margin: 0 auto !important;
+}
+
+.head-github-btn {
+    padding: 4% 2% 2% 2%;
+}
+
+.head-middle-title {
+    padding-top: 8%;
+    padding-bottom: 4%;
+}
+
+.head-middle-para {
+    padding-bottom: 2%;
+}
+
+.head-resources-cards {
+    text-align: center;
+    padding: 0% 2% 8% 2%;
+}
+
+.head-resources-cards-title {
+    padding-bottom: 5.5%;
+}
+
+.head-resources-cards-btn {
+    padding: 6% 2% 1% 2%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* Card */
+/**********************************************************************/
+
+.card-img-top {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    height: 150px;
+    width: 200px;
+}
+
+.card {
+    border-radius: 10px !important;
+    width: 250px !important;
+    background-color: rgb(245, 245, 245) !important;
+    border: 1px !important;
+    box-sizing: border-box;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+    transition: transform .35s;
+    text-decoration: none !important;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    z-index: 1;
+    background-color: #ffe18e !important;;
+    
+}
+
+.cardA:hover {
+    text-decoration: none !important;
+}
+
+.card-title {
+    font-weight: 600 !important;
+}
+
+
+
+/* button */
+/*************************************************************************************/
+
+
+.cardBtn:active {
+    position: relative;
+    top: 1px;
+}
+
+.headTopBtn {
+    background: linear-gradient(to bottom, #ffe18e 50%, #f0c465 100%);
+    background-color: #ffe18e;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+    color: #27004b;
+    font-size: 16px;
+    font-weight: 600 !important;
+    padding: 15px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffe18e;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transition: transform .5s;
+}
+
+.headTopBtn:hover {
+    background: linear-gradient(to bottom, #f0c465 5%, #ffe18e 100%);
+    background-color: #f0c465;
+    text-decoration: none;
+    color: #27004b;
+    transform: scale(1.05);
+}
+
+.headTopBtn:active {
+    position: relative;
+    top: 1px;
+}
+
+.navbar-toggler-icon {
+    color: white !important;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none !important;
+    box-shadow: none;
+    color: white !important;
+}
+
+/* Github */
+/********************************************************************************/
+
+.git-tutorial-title,
+.git-resource-title {
+    text-align: center;
+    padding: 10% 10% 6% 10%;
+}
+
+.git-tut-cards {
+    padding: 0% 10% 8% 10%;
+}
+
+
+
+
+/* Code Pages */
+/*******************************************************************************/
+
+
+.snip-div {
+    padding: 0% 10% 8% 10%;
+    text-align: center;
+}
+
+.snip-class {
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+    border: 2px;
+
+}
+
+.snip-title {
+    padding-top: 8%;
+}
+
+.over-cards {
+    padding-top: 8%;
+    padding-bottom: 6%;
+}
+
+.r-snip,
+.pyt-snip {
+    padding-top: 8%;
+    padding-bottom: 10%;
+}
+
+
+.contact-class {
+    padding: 3% auto !important;
+    border-radius: 100% !important;
+    width: 150px !important;
+    border: 3px !important;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.205) !important;
+}
+
+
+@media (max-width: 767px) {
+    .headGitCards {
+        padding-top: 8%;
+        padding-bottom: 8%;
+    }
+}
