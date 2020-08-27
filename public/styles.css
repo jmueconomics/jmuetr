@@ -34,7 +34,7 @@ i:hover {
 
 .color-nav {
     background-color: #27004b !important;
-    font-size: 1.25rem;
+    font-size: 1rem;
     letter-spacing: 2px;
 }
 
@@ -71,7 +71,7 @@ i:hover {
 }
 
 .brand-nav {
-    font-size: 1.25rem !important;
+    font-size: 1rem !important;
     color: rgb(255, 255, 255) !important;
     font-weight: 400;
     letter-spacing: 2px;
@@ -110,9 +110,13 @@ i:hover {
     color: rgb(255, 255, 255);
 }
 
-.footer p {
+.foot-he {
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+.foot-cr {
+    font-size: 0.6rem;
 }
 
 .foot-top {
@@ -121,15 +125,6 @@ i:hover {
     font-size: 0.9rem;
 }
 
-.foot-bot {
-    padding-bottom: 2%;
-    font-size: 0.7rem;
-}
-
-.foot-dan,
-.foot-ct {
-    padding-right: 20px;
-}
 
 
 
@@ -149,7 +144,6 @@ i:hover {
 }
 
 .head-first-para {
-    padding-bottom: 10%;
     font-size: 1.25rem;
 }
 

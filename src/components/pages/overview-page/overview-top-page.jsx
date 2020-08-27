@@ -11,7 +11,6 @@ const topPageOver = () =>
         title = {headTitlejs[3].title} 
         contentDiv = {headTitlejs[3].contentDiv} 
         content = {headTitlejs[3].content} />
-        <hr/>
     </HeadTopContainer>
 
 export default topPageOver;
