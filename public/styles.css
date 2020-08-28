@@ -17,7 +17,7 @@ a {
 }
 hr {
     border-style: dotted none none !important;
-    border-color: rgb(122, 122, 122) !important;
+    border-color: rgb(204, 204, 204) !important;
     border-width: 6px !important;
     width: 6% !important;
     margin: 0 auto !important;
@@ -189,6 +189,8 @@ i:hover {
 
 
 
+
+
 /* Card */
 /**********************************************************************/
 
@@ -336,6 +338,14 @@ i:hover {
     box-shadow: 5px 10px rgba(0, 0, 0, 0.205) !important;
 }
 
+.extra-links-btn {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.ex-links-div {
+    padding: 5% 5% 8% 5%;
+}
 
 @media (max-width: 767px) {
     .headGitCards {

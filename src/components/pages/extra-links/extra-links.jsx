@@ -1,6 +1,6 @@
 import React from 'react';
-import {EachLinkDiv, EachLinkA, AlRead} from "../styled-components/pages/extra-links/links";
-import createButton from "./main-button";
+import {EachLinkDiv, EachLinkA, AlRead} from "../../styled-components/pages/extra-links/links";
+import createButton from "../../created-functions/main-button";
 
 const ExtraLinks = (props) => 
     <div>

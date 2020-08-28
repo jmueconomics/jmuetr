@@ -4,9 +4,8 @@ import Footer from "../../../partials/footer";
 import TitPara from "./overview-top-page";
 import MiddleContent from "./overview-middle-content";
 import MiddleCards from "./over-view-resources";
-import ExtraLinks from "../../created-functions/extra-links";
+import ExLinks from "../extra-links/ds-extra-links";
 import DsArr from "../../../js-files/diff-pages/extra-links/data-science-links";
-import {LinkDiv} from "../../styled-components/pages/extra-links/links";
 
 const overviewFinal = () => 
     <div>
@@ -14,9 +13,7 @@ const overviewFinal = () =>
         <TitPara/>
         <MiddleContent/>
         <MiddleCards />
-        <LinkDiv>
-            <ExtraLinks arr = {DsArr}/>
-        </LinkDiv>
+        <ExLinks arr = {DsArr}/>
         <Footer/>
     </div>
 

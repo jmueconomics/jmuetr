@@ -13,7 +13,7 @@ return <Navbar collapseOnSelect expand="lg" className = "color-nav" variant = "d
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link href="/"><i class="home fas fa-home"></i></Nav.Link>
+          <Nav.Link href="/"><i className = "home fas fa-home"></i></Nav.Link>
           <Nav.Link href = {"/" + _.lowerCase("Github")}>Github</Nav.Link>
           <HoverDropdown />
           <Nav.Link href="https://www.jmu.edu/cob/economics/about/executive-advisory-board.shtml" target = "_title">About</Nav.Link>
