@@ -23,7 +23,7 @@ export default class ExLinks extends Component {
         <div className = "extra-links-btn">
             <a onClick = {this.handleLinks} className = "headTopBtn" target = "_title">More Resources</a>
         </div>
-        {this.state.showLinks === true ? <LinkDiv><ExtraLinks arr = {this.props.arr}/></LinkDiv> : null}
+        {this.state.showLinks === true ? <LinkDiv><ExtraLinks arr = {this.props.arr} btnLink = {this.props.btnLink} /></LinkDiv> : null}
         </div>
         )
     }

@@ -1,4 +1,4 @@
-const DsLinks = [
+const PyLinks = [
     {
         key: 43234425454,
         link: "https://pandas.pydata.org/pandas-docs/stable/",
@@ -49,4 +49,4 @@ const DsLinks = [
     }
 ];
 
-export default DsLinks;
+export default PyLinks;

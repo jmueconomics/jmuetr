@@ -11,14 +11,14 @@ const HeadBp = styled.div`
 `;
 
 const HeadBpSnip = styled.div`
-    padding-top: 8%;
-    padding-bottom: 8%;
+    padding-top: 7%;
+    padding-bottom: 7%;
 `;
 
 const SnipBtn = styled.button`
     background: linear-gradient(to bottom, #ffe18e 50%, #f0c465 100%);
     background-color: #ffe18e;
-    border-radius: 20px;
+    border-radius: 10px;
     display: inline-block;
     cursor: pointer;
     color: #27004b;

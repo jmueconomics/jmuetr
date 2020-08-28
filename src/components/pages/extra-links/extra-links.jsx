@@ -6,11 +6,11 @@ const ExtraLinks = (props) =>
     <div>
         <h3 style = {{fontWeight: "600", paddingBottom: "1%"}}>Extra Links (Find more on Awesome Links)</h3>
             {props.arr.map(e => <EachLinkDiv key = {e.key}>
-                <EachLinkA href = {e.link}>
+                <EachLinkA href = {e.link} target = "_title">
                     {e.title}
                 </EachLinkA> - <span>{e.description}</span>
                 </EachLinkDiv>)}
-                {createButton("head-resources-cards-btn", "https://github.com/sindresorhus/awesome", "headTopBtn", "Awesome Links GitHub")}
+                {createButton("head-resources-cards-btn", props.btnLink, "headTopBtn", "Awesome Links GitHub")}
                 <AlRead>
                     <span>Checkout the ReadMe.</span>
                 </AlRead>
