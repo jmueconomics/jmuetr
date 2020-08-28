@@ -10,12 +10,9 @@ const HeadBulPara = styled.div`
     font-size: 1.25rem;
 `;
 
-const OverBulletsTitle = styled.div`
-    padding: 10% 10% 3% 10%;
-`;
+
 
 export {
     MiddleBulletsContent, 
-    HeadBulPara,
-    OverBulletsTitle
+    HeadBulPara
 }

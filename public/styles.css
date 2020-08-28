@@ -32,6 +32,9 @@ i:hover {
     transform: scale(1.6);
 }
 
+.title-paragraph-pad {
+    padding-bottom: 7%;
+}
 .color-nav {
     background-color: #27004b !important;
     font-size: 1rem;

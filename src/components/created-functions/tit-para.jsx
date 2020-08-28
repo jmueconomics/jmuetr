@@ -6,8 +6,8 @@ const titPara = (props) =>
         <div className = {props.titleDiv}>
             <h1>{props.title}</h1>
         </div>
-        <div className ={props.contentDiv}>
-            <p>{props.content}</p>
+        <div className = {props.contentDiv}>
+            <p className = "title-paragraph-pad">{props.content}</p>
         </div>
     </div>
 

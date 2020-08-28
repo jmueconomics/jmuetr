@@ -39,7 +39,7 @@ class CodePageTemplate extends Component {
         <HeadBpSnip onClick = {this.viewSnippet}>
             <SnipBtn>VIEW CODE SNIPPET</SnipBtn>
         </HeadBpSnip>
-        {this.state.showSnip ? <Snip className = {this.snipJs.className} img = {this.snipJs.img} alt = {this.snipJs.altName} divName = {this.snipJs.divName} /> : null}
+        {this.state.showSnip ? <Snip className = {this.snipJs.class} img = {this.snipJs.img} alt = {this.snipJs.altName} divName = {this.snipJs.divName} /> : null}
         <hr/>
         <MiddleBulletsContent>
             {Cards("head-github-title over-cards", "head-github-cards", this.ct1, this.cards1, 4)}

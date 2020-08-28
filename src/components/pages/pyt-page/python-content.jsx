@@ -7,7 +7,7 @@ import {pythonTutorials, pythonResources} from "../../../js-files/diff-pages/pyt
 
 
 const pythPage = () => {
-    return new CodePageTemplate("fab fa-python fa-4x", titlePara[5], snip[2], "Python Tutorials", "Python Resources", pythonTutorials, pythonResources);
+    return new CodePageTemplate("fab fa-python fa-4x", titlePara[5], snip[1], "Python Tutorials", "Python Resources", pythonTutorials, pythonResources);
 }
 
 export default pythPage;

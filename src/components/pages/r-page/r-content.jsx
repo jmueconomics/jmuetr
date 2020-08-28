@@ -5,7 +5,7 @@ import {rTutorials, rResources} from "../../../js-files/diff-pages/r-page-cards"
 
 
 const rPage = () => {
-    return new CodePageTemplate("fab fa-r-project fa-4x", titlePara[4], snip[1], "R Tutorials", "R Resources", rTutorials, rResources);
+    return new CodePageTemplate("fab fa-r-project fa-4x", titlePara[4], snip[0], "R Tutorials", "R Resources", rTutorials, rResources);
 }
 
 export default rPage;

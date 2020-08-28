@@ -1,13 +1,10 @@
 import React from "react";
-import {MiddleBulletsContent, HeadBulPara, OverBulletsTitle} from "../../styled-components/pages/head-bullets";
+import {MiddleBulletsContent, HeadBulPara} from "../../styled-components/pages/head-bullets";
 
 const middleContent = () => 
     <MiddleBulletsContent>
-        <hr/>
         <HeadBulPara>
-            <OverBulletsTitle>
-                <h3>Top 3 Things About Data Science</h3>     
-            </OverBulletsTitle>
+            <h3>Top 3 Things About Data Science</h3>     
             <div>
                 <li>Lorem ipsum.</li>
                 <li>Lorem ipsum.</li>
