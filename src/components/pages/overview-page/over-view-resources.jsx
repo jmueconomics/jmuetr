@@ -9,7 +9,7 @@ const resourceCards = () =>
     <HeadResourcesCard>
         <hr/>
         <div>
-            {Cards("head-github-title over-cards", "head-github-cards", "Great Data Science Resources", overCards, 4)}
+            {Cards("head-github-title over-cards", "head-github-cards", "Great Data Science Resources", overCards, 4, 6)}
         </div>
     </HeadResourcesCard>
 

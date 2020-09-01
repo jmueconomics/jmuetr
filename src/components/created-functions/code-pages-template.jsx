@@ -42,11 +42,11 @@ class CodePageTemplate extends Component {
         {this.state.showSnip ? <Snip className = {this.snipJs.class} img = {this.snipJs.img} alt = {this.snipJs.altName} divName = {this.snipJs.divName} /> : null}
         <hr/>
         <MiddleBulletsContent>
-            {Cards("head-github-title over-cards", "head-github-cards", this.ct1, this.cards1, 4)}
+            {Cards("head-github-title over-cards", "head-github-cards", this.ct1, this.cards1, 4, 6)}
         </MiddleBulletsContent>
         <hr/>
         <div>
-            {Cards("head-github-title over-cards", "head-github-cards", this.ct2, this.cards2, 4)}
+            {Cards("head-github-title over-cards", "head-github-cards", this.ct2, this.cards2, 4, 6)}
         </div>
     </HeadTopContainer>
     }

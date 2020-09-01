@@ -7,7 +7,7 @@ import {HeadGithubContainer} from "../../styled-components/pages/head-github-con
 
 
 const headTop = () => <HeadGithubContainer>
-    {Cards("head-github-title", "head-github-cards", "Github Resources", headCards, 4)}
+    {Cards("head-github-title", "head-github-cards", "Github Resources", headCards, 4, 6)}
     {CreateButton("head-github-btn","https://github.com/","headTopBtn", "GO TO GITHUB")}
 </HeadGithubContainer>
 

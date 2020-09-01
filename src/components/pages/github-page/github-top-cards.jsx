@@ -6,12 +6,12 @@ import {GitTutCards} from "../../styled-components/pages/head-github-container";
 const GithubTopCards = () => 
     <GitTutCards>
         <hr/>
-        {Cards("git-tutorial-title", "git-tutorials-top-cards", "Github Tutorials", array, 4)}
+        {Cards("git-tutorial-title", "git-tutorials-top-cards", "Github Tutorials", array, 4, 6)}
     </GitTutCards>
-    const GithubBottomCards = () => 
+const GithubBottomCards = () => 
     <GitTutCards>
         <hr/>
-        {Cards("git-resource-title", "git-tutorials-bottom-cards", "Github Resources", array)}
+        {Cards("git-resource-title", "git-tutorials-bottom-cards", "Github Resources", array, 4, 6)}
     </GitTutCards>
 
 export { GithubTopCards, GithubBottomCards };

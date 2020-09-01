@@ -350,7 +350,7 @@ i:hover {
     padding: 2% 5% 8% 5%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
     .headGitCards {
         padding-top: 8%;
         padding-bottom: 8%;

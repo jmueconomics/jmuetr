@@ -7,7 +7,7 @@ import {HeadResourcesCard} from "../../styled-components/pages/head-resources-ca
 
 const headMoreCards = () => {
     return <HeadResourcesCard>
-        {Cards("head-resources-cards-title", "head-resources-cards-content", "Coding Resources", HeadMore, 3)}
+        {Cards("head-resources-cards-title", "head-resources-cards-content", "Coding Resources", HeadMore, 3, 6)}
         {CreateButton("head-resources-cards-btn", "/" + _.lowerCase("Data Science"), "headTopBtn", "DATA SCIENCE")}
     </HeadResourcesCard>
 }

@@ -10,7 +10,7 @@ import LogoPic from "../img/logoetr.png";
 const JMUnav = () => {
 
 return <Navbar collapseOnSelect expand="lg" className = "color-nav" variant = "dark">
-      <Navbar.Brand className = "brand-nav" href="/"><img className = "logo-pic" src = {LogoPic} alt = "jmulogo"></img>Technical Resources | Economics Students</Navbar.Brand>
+      <Navbar.Brand className = "brand-nav" href="/"><img className = "logo-pic" src = {LogoPic} alt = "jmulogo"></img>Technical Resources</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
