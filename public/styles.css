@@ -23,17 +23,12 @@ hr {
     margin: 0 auto !important;
 }
 
-i {
-    transition: transform .35s;
-}
-
 i:hover {
     color: #ffe18e !important;
-    transform: scale(1.6);
 }
 
 .title-paragraph-pad {
-    padding-bottom: 7%;
+    padding-bottom: 6%;
 }
 .color-nav {
     background-color: #27004b !important;
@@ -86,7 +81,7 @@ i:hover {
 
 .logo-pic {
     width: 80px;
-    padding-right: 10px;
+
 }
 
 .dropdown-toggle:hover .navbar {
@@ -116,6 +111,7 @@ i:hover {
 .foot-he {
     font-size: 1.5rem;
     font-weight: 400;
+    padding-top: 1%;
 }
 
 .foot-cr {
@@ -349,6 +345,50 @@ i:hover {
 .ex-links-div {
     padding: 2% 5% 8% 5%;
 }
+
+ /**************************************Social Buttons**************************/ 
+  .social-btns {
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    padding: 2px;
+  }
+  
+  
+  .social-btns__share-button {
+    cursor: pointer;
+  }
+  
+  .social-btns__share-button:hover:not(:active) {
+    opacity: 0.75;
+  }
+  
+  .social-btns__custom-icon {
+    width:32px;
+    height:32px;
+  }
+
+  .social-container {
+      display: inline-block;
+      padding: 1%;
+  }
+
+  .social-1 {
+      display: inline-block;
+  }
+
+  .share-click {
+    padding-right: 15px;
+  }
+
+  .share-click:hover .share-icon {
+      color: white !important;
+  }
+
+  .social-btns__share-button:focus {
+      outline: none;
+    }
 
 @media (max-width: 800px) {
     .headGitCards {
