@@ -88,6 +88,51 @@ i:hover {
     display: block !important;
 }
 
+
+.head-bottom-para {
+    text-align: center;
+    padding: 0% 10% 6% 10%;
+    font-size: 1.25rem;
+} 
+
+.head-bp {
+    padding-top: 8%;
+}
+    
+.head-bp-snip {
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.snip-btn {
+    background: linear-gradient(to bottom, #ffe18e 50%, #f0c465 100%);
+    background-color: #ffe18e;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+    color: #27004b;
+    font-size: 17px;
+    padding: 14px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffe18e;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.514);
+    transition: transform .35s;
+    font-weight: 600;
+    border: none;
+}
+
+.snip-btn:hover {
+    background: linear-gradient(to bottom, #f0c465 5%, #ffe18e 100%);
+    background-color: #f0c465;
+    text-decoration: none;
+    color: #27004b;
+    transform: scale(1.05);
+}
+
+.snip-btn:focus {
+    outline: none;
+}
+
 /* Footer */
 
 .footer {
@@ -346,6 +391,46 @@ i:hover {
     padding: 2% 5% 8% 5%;
 }
 
+.each-link-div {
+    padding: 3%;
+}
+
+.each-link-a {
+    color: #27004b;
+    text-decoration: underline !important;
+}
+.each-link-a:hover {
+        color: #ffe18e;
+}
+
+
+.link-div {
+    padding: 5%;
+    text-align: left;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
+    border-radius: 10px;
+    height: 400px;
+    overflow: auto;
+    width: 60%;
+    margin: 0 auto;
+}
+.link-div::-webkit-scrollbar {
+        width: 13px;
+    }
+
+.link-div::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5); ;
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5); 
+        height: 30px;
+}
+
+.alRead {
+    text-align:center;
+    margin: 2px auto;
+    font-size: 0.6rem;
+}
+
  /**************************************Social Buttons**************************/ 
   .social-btns {
     vertical-align: top;
@@ -395,4 +480,52 @@ i:hover {
         padding-top: 8%;
         padding-bottom: 8%;
     }
+}
+
+.middle-bullets-content {
+    padding-bottom: 8%;
+} 
+
+.head-bul-para {
+    text-align: center;
+    padding: 0% 10% 0% 10%;
+    font-size: 1.25rem;
+}
+
+.head-github-container {
+    text-align: center;
+}
+
+.git-buttons-div {
+    padding-bottom: 10%;
+}
+
+.github-page-title {
+    text-align: center;
+    padding: 6% 10% 8% 10%;
+    font-size: 1.25rem;
+}
+
+.git-tut-cards {
+    padding: 0% 10% 8% 10%;
+}
+
+.head-middle {
+    text-align: center;
+    padding: 6% 10% 3% 10%;
+    font-size: 1.25rem;
+}
+
+.head-top-container {
+    text-align: center;
+    padding: 6% 10% 8% 10%;
+}
+
+.about-para-div {
+    padding-bottom: 0%;
+    font-size: 1.25rem;
+}
+.about-para {
+    padding: 3%;
+
 }

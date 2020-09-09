@@ -1,10 +1,9 @@
 import React from "react";
 import createButton from "../../created-functions/main-button";
 import {Container, Row, Col} from "react-bootstrap";
-import {GitButtonsDiv} from "../../styled-components/pages/head-github-container";
 
 const gitButtons = () => 
-    <GitButtonsDiv>
+    <div className = "git-buttons-div">
         <Container>
             <div>
                 <Row>
@@ -17,7 +16,7 @@ const gitButtons = () =>
                 </Row>
             </div>
         </Container>
-    </GitButtonsDiv>
+    </div>
 
 
 export default gitButtons;
