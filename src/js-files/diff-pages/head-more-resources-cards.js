@@ -1,17 +1,22 @@
 import _ from "lodash";
+import dsLogo from "../../components/img/home-more-res/ds-logo.png";
+import pythLogo from "../../components/img/home-more-res/python-logo.png";
+import rLogo from "../../components/img/home-more-res/r-logo.png";
+import sqlLogo from "../../components/img/home-more-res/sql-logo.png";
+
 
 
 const headMore = [
     {
         key: 1342235,
-        img: "https://insideanalysis.com/wp-content/uploads/2019/07/what-is-data-science.jpg",
+        img: dsLogo,
         title: "Data Science",
         content: "Data science is an field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from many structural and unstructured data.",
         btnSrc: "/" + _.lowerCase("Data Science")
     },
     {
         key: 223424352,
-        img: "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/5e/b4ef8069b511e3ae92c39913bb30e0/Rprogramming.jpg?auto=format%2Ccompress&dpr=1",
+        img: rLogo,
         title: "R",
         content: "R is a programming language and free software environment for statistical computing and graphics. R language is widely used among statisticians and data miners.",
         btnSrc: "/" + _.lowerCase("R")
@@ -19,14 +24,14 @@ const headMore = [
     },
     {
         key: 33245335,
-        img: "https://inspiredlab.github.io/omisgazette/assets/images/pythoncamp.jpg",
+        img: pythLogo,
         title: "Python",
         content: "Python is an interpreted, high-level, general-purpose programming language. It is used for Statistical Analysis and Back-End Programming.",
         btnSrc: "/" + _.lowerCase("Python")
     },
     {
         key: 42343253,
-        img: "https://img-a.udemycdn.com/course/750x422/2120874_a33d.jpg",
+        img: sqlLogo,
         title: "SQL",
         content: "SQL is a domain-specific language used in programming and designed for managing data held in a relational database management system.",
         btnSrc: "/" + _.lowerCase("SQL")

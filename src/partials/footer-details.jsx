@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component, Fragment } from "react";
 import ShareBtns from "./share-btns";
@@ -22,7 +23,7 @@ export default class FootDeat extends Component {
             <div className = "foot-social">
                 <a className = "share-click" onClick = {this.toggleShare} style = {{cursor: "pointer"}}>Share<i className="share-icon fas fa-share"></i></a>
                 {this.state.showShare === true ? <ShareBtns/> : null}
-                <a href = "https://www.linkedin.com/groups/8402100/" className = "foot-peaps">Join the JMU Economics Network</a>            
+                <a href = "https://www.linkedin.com/groups/8402100/" className = "foot-peaps" target = "_blank">Join the JMU Economics Network</a>            
             </div>
     </Fragment>  
     }
