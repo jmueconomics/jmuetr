@@ -30,7 +30,7 @@ i:hover {
 /*******************Header/Title**********************/
 
 .title-paragraph-pad {
-    padding-bottom: 6%;
+    padding: 0 6% 6% 6%;
 }
 .color-nav {
     background-color: #27004b !important;
@@ -326,7 +326,7 @@ i:hover {
 }
 
 .middle-bullets-content {
-    padding-bottom: 8%;
+    padding-bottom: 6%;
 } 
 
 .head-bul-para {
@@ -335,6 +335,25 @@ i:hover {
     font-size: 1.25rem;
 }
 
+.bul-links {
+    padding: 5% 2% 2% 2%;
+    margin: 1%;
+}
+
+.bul-links li {
+    list-style: none;
+    padding: 1%;
+}
+
+.bul-links a {
+    font-size: 1.5rem;
+    color: inherit;
+}
+
+.bul-links a:hover {
+    text-decoration: none;
+    color: #ffe18e;
+}
 .head-github-container {
     text-align: center;
 }

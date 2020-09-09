@@ -25,7 +25,7 @@ const titleParagraph = [
         titleDiv: "head-first-title",
         title: "Data Science and Analytics",
         contentDiv: "head-first-para",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et nunc at risus ornare efficitur quis vitae mauris. Nunc ullamcorper auctor diam vitae vestibulum. In tempor tortor sed massa pulvinar facilisis. Vestibulum ultricies velit id massa ullamcorper semper non vitae odio. Donec ut tincidunt quam, vel finibus ante. In vitae quam faucibus, aliquam sapien non, tempor felis. In mattis, enim nec suscipit tempor, sem velit pellentesque arcu, nec maximus arcu dui eleifend felis. Praesent interdum aliquet orci vel ultricies. Aenean non laoreet nisl."
+        content: "Data scientists are big data wranglers, gathering and analyzing large sets of structured and unstructured data. A data scientist’s role combines computer science, statistics, and mathematics. They analyze, process, and model data then interpret the results to create actionable plans for companies and other organizations. Data scientists are analytical experts who utilize their skills in both technology and social science to find trends and manage data. They use industry knowledge, contextual understanding, skepticism of existing assumptions – to uncover solutions to business challenges. A data scientist’s work typically involves making sense of messy, unstructured data, from sources such as smart devices, social media feeds, and emails that don’t neatly fit into a database. (https://www.mastersindatascience.org/careers/data-scientist/)"
     },
     {
         key: 5,

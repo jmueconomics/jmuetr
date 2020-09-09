@@ -1,24 +1,29 @@
+import AnVid from "../../components/img/overview/an-vid.png";
+import DataQuest from "../../components/img/overview/data-quest.png";
+import Harv from "../../components/img/overview/harv.png";
+
+
 const overCards = [
     {
         key: 1324342,
-        img: "https://ichef.bbci.co.uk/news/410/cpsprodpb/37B5/production/_89716241_thinkstockphotos-523060154.jpg",
-        title: "View our Github Repository",
-        content: "Our open-source repository is created and supported by the Economics Advisory Board. Contributions are always appreciated.",
-        btnSrc: "/SQL"
+        img: Harv,
+        title: "CS109 Data Science from Harvard",
+        content: "Learning from data in order to gain useful predictions and insights. This course introduces methods for five key facets of an investigation.",
+        btnSrc: "http://cs109.github.io/2015/index.html"
     },
     {
         key: 2432435445,
-        img: "https://media.nesta.org.uk/images/Predictions-2019_Twitter_02.width-1200.png",
-        title: "Learn about Github/ Git",
-        content: "Want to learn more about Github and Git? We have plenty of resources for you.",
-        btnSrc: "/github"
+        img: AnVid,
+        title: "Analytics Vidhya",
+        content: "Analytics Vidhya brings you the power of community that comprises of data practitioners, thought leaders and corporates leveraging data to generate value for their businesses.",
+        btnSrc: "https://www.analyticsvidhya.com/"
     },
     {
         key: 3542345444,
-        img: "https://www.randomlists.com/img/world-city-maps/belgrade.webp",
-        title: "REMOVE?",
-        content: "Take over the world with this Google maps inspired version of Risk. Conquer the world!",
-        btnSrc: "/python"
+        img: DataQuest,
+        title: "DataQuest",
+        content: "Our hands-on data science courses will help you learn R, Python and SQL from scratch — so you can land your first data science job!",
+        btnSrc: "https://app.dataquest.io/login"
     }
 ]
 
