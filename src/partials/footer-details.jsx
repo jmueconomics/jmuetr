@@ -21,9 +21,10 @@ export default class FootDeat extends Component {
     render() {
       return <Fragment>
             <div className = "foot-social">
-                <a className = "share-click" onClick = {this.toggleShare} style = {{cursor: "pointer"}}>Share<i className="share-icon fas fa-share"></i></a>
-                {this.state.showShare === true ? <ShareBtns/> : null}
-                <a href = "https://www.linkedin.com/groups/8402100/" className = "foot-peaps" target = "_blank">Join the JMU Economics Network</a>            
+                <a className = "rating-click footer-click" onClick = {this.props.ratingClick}>Leave a Rating</a>
+                <a href = "https://www.linkedin.com/groups/8402100/" className = "foot-peaps footer-click" target = "_blank">Join the JMU Economics Network</a>  
+                <a className = "share-click footer-click" onClick = {this.toggleShare} style = {{cursor: "pointer"}}>Share<i className="share-icon fas fa-share"></i></a>
+                {this.state.showShare === true ? <ShareBtns/> : null}          
             </div>
     </Fragment>  
     }
