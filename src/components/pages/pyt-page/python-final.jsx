@@ -12,8 +12,8 @@ const pythonFinal = () =>
         <Header/>
         <PythonContent/>
         <ExLinks 
-        arr = {PyArr}
-        btnLink = {BtnLinks.pythonAl}
+            arr = {PyArr}
+            btnLink = {BtnLinks.pythonAl}
         />
         <Footer/>
     </div>

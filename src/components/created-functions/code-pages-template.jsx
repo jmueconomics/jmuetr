@@ -15,11 +15,15 @@ class CodePageTemplate extends Component {
             this.state = {
                 showSnip: false
             }
+            this.viewSnippet = this.viewSnippet.bind(this);
+            
         }
 
     
 
-    viewSnippet = () => {this.setState({showSnip: !this.state.showSnip})}
+    viewSnippet() {
+        this.setState({showSnip: !this.state.showSnip})
+    }
     
     render() {
         return <div className = "head-top-container">
