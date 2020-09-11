@@ -10,6 +10,8 @@ const topPageOver = () =>
         title = {headTitlejs[3].title} 
         contentDiv = {headTitlejs[3].contentDiv} 
         content = {headTitlejs[3].content} />
+        <div style = {{paddingBottom: "5%", fontSize: "0.75rem"}}><a href = "https://www.mastersindatascience.org/careers/data-scientist/">(Source: https://www.mastersindatascience.org/careers/data-scientist/)</a>
+        </div>
         <hr/>
     </div>
 

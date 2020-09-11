@@ -9,13 +9,27 @@ const middleContent = () => {
         event.target.pauseVideo();
       }
     
-    const opts = {
-        height: '600',
-        width: '700',
-        playerVars: {
-        autoplay: 2,
-        },
-    };
+      const med = window.innerWidth < 800;
+      const sm = window.innerWidth < 499;
+
+      let h = "600";
+      let w = "700";
+
+      if (sm) {
+          h = "250"
+          w = "300"
+      } else if (med) {
+          h = "300"
+          w = "400"
+      } 
+
+      const opts = {
+          height: h,
+          width: w,
+          playerVars: {
+              autoplay: 2,
+          },
+      };
 
     return <div className = "git-buttons-div">
         <div className = "head-bul-para">

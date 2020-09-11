@@ -25,13 +25,27 @@ class CodePageTemplate extends Component {
     
     render() {
 
+        const med = window.innerWidth < 800;
+        const sm = window.innerWidth < 499;
+
+        let h = "600";
+        let w = "700";
+
+        if (sm) {
+            h = "250"
+            w = "300"
+        } else if (med) {
+            h = "300"
+            w = "400"
+        } 
+
         const opts = {
-            height: '600',
-            width: '700',
+            height: h,
+            width: w,
             playerVars: {
-              autoplay: 2,
+                autoplay: 2,
             },
-          };
+        };
 
         return <div className = "head-top-container">
         <i className={this.props.iconClass}></i>
@@ -42,6 +56,8 @@ class CodePageTemplate extends Component {
             contentDiv = {this.props.titleJs.contentDiv} 
             content = {this.props.titleJs.content} 
         />
+        <div style = {{paddingBottom: "5%", fontSize: "0.75rem"}}><a href = {this.props.source}>(Source: {this.props.source})</a>
+        </div>
         <hr/>
         <div className = "head-bp-snip" onClick = {this.viewSnippet}>
             <button className = "snip-btn">VIEW INTRO VIDEO</button>

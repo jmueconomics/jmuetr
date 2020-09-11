@@ -13,6 +13,7 @@ class SQL extends Component {
                         cards1 = {sqlTutorials}
                         cards2 = {sqlResources}
                         vidId = "27axs9dO7AE"
+                        source = "http://www.sqlcourse.com/intro.html"
                     />
 
         return Sqlstat;

@@ -14,6 +14,7 @@ class Rstatistics extends Component {
                         cards1 = {rTutorials}
                         cards2 = {rResources}
                         vidId = "SWxoJqTqo08"
+                        source = "https://www.r-project.org/about.html"
                     />
 
         return Rstat;

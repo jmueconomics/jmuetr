@@ -16,6 +16,7 @@ class PythPage extends Component {
                         cards1 = {pythonTutorials}
                         cards2 = {pythonResources}
                         vidId = "-Rf4fZDQ0yw"
+                        source = "https://www.python.org/doc/essays/blurb/"
                     />
         return Python;
     }

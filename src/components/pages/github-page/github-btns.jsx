@@ -9,13 +9,28 @@ const gitButtons = () => {
         event.target.pauseVideo();
     }
 
+    const med = window.innerWidth < 800;
+    const sm = window.innerWidth < 499;
+
+    let h = "600";
+    let w = "700";
+
+    if (sm) {
+        h = "250"
+        w = "300"
+    } else if (med) {
+        h = "300"
+        w = "400"
+    } 
+
     const opts = {
-        height: '600',
-        width: '700',
+        height: h,
+        width: w,
         playerVars: {
-        autoplay: 2,
+            autoplay: 2,
         },
     };
+
     return <div className = "git-buttons-div">
         <Container>
             <div>
