@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import TitlePara from "./tit-para";
-import Snip from "./snip";
 import Cards from "./three-cards";
+import YouTube from 'react-youtube';
 
 class CodePageTemplate extends Component {
     constructor() {
@@ -11,14 +11,28 @@ class CodePageTemplate extends Component {
                 showSnip: false
             }
             this.viewSnippet = this.viewSnippet.bind(this);
-            
+            this._onReady = this._onReady.bind(this);
+
         }
 
     viewSnippet() {
         this.setState({showSnip: !this.state.showSnip})
     }
+
+    _onReady(event) {
+        event.target.pauseVideo();
+      }
     
     render() {
+
+        const opts = {
+            height: '600',
+            width: '700',
+            playerVars: {
+              autoplay: 2,
+            },
+          };
+
         return <div className = "head-top-container">
         <i className={this.props.iconClass}></i>
         <TitlePara 
@@ -30,9 +44,9 @@ class CodePageTemplate extends Component {
         />
         <hr/>
         <div className = "head-bp-snip" onClick = {this.viewSnippet}>
-            <button className = "snip-btn">VIEW CODE SNIPPET</button>
+            <button className = "snip-btn">VIEW INTRO VIDEO</button>
         </div>
-        {this.state.showSnip ? <Snip className = {this.props.snipJs.class} img = {this.props.snipJs.img} alt = {this.props.snipJs.altName} divName = {this.props.snipJs.divName} /> : null}
+        {this.state.showSnip ? <YouTube className = "snip" videoId={this.props.vidId} opts={opts} onReady={this._onReady} /> : null}
         <hr/>
         <div className = "middle-bullets-content">
             {Cards("head-github-title over-cards", "head-github-cards", this.props.ct1, this.props.cards1, 4, 6)}

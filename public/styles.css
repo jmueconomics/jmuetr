@@ -194,7 +194,7 @@ i:hover {
 }
 
 .head-resources-cards-btn {
-    padding: 6% 2% 1% 2%;
+    padding: 6% 2%;
     text-align: center;
 }
 
@@ -359,7 +359,7 @@ i:hover {
 }
 
 .git-buttons-div {
-    padding-bottom: 10%;
+    padding-bottom: 2%;
 }
 
 .github-page-title {
@@ -397,17 +397,8 @@ i:hover {
 /*******************************************************************************/
 
 
-.snip-div {
-    padding: 0% 10% 8% 10%;
+.git-youtube {
     text-align: center;
-}
-
-.snip-class {
-    width: 100%;
-    border-radius: 30px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-    border: 2px;
-
 }
 
 .snip-title {
@@ -451,8 +442,7 @@ i:hover {
 .snip-btn:focus {
     outline: none;
 }
-.r-snip,
-.pyt-snip {
+.snip{
     padding-top: 5%;
     padding-bottom: 8%;
 }

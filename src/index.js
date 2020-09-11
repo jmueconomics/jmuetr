@@ -9,4 +9,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-
+//"dist": "echo econtechnicalresources.icu > build/CNAME"
