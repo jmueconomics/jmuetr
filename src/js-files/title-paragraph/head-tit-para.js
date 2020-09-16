@@ -4,7 +4,7 @@ const titleParagraph = [
         titleDiv: "head-first-title",
         title: "Welcome Students, Faculty, and Alumni!",
         contentDiv: "head-first-para",
-        content: "This site is primarily designed to help students, faculty, and alumni collaborate and engage on technical projects in our Github Repository. Additionally, we offer free tutorials and resources on Data Analysis, Data Science, and Github using programming languages such as Python, SQL, and R. We hope you enjoy!"
+        content: "Promoting professional development of students, faculty, and alumni through curated resources, tutorials, and seminars"
     },
     {
         key: 2,
