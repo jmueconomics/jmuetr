@@ -10,7 +10,7 @@ class App extends Component {
        <BrowserRouter>
         <div>
             <Switch>
-             {routingArray.map(e => <Route key = {e.key} path = {e.pathWay} component={e.content} exact/>)}
+             {routingArray.map(e => <Route key = {e.key} path = {e.pathWay} component={e.content} exact />)}
            </Switch>
         </div> 
       </BrowserRouter>
