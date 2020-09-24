@@ -12,5 +12,3 @@ ReactDOM.render(
   </HashRouter>,
   document.getElementById('root')
 );
-
-//"dist": "echo econtechnicalresources.icu > build/CNAME"

@@ -9,7 +9,7 @@ class App extends Component {
     return (
         <div>
             <Switch>
-             {routingArray.map(e => <Route key = {e.key} path = {e.pathWay} component={e.content} exact />)}
+             {routingArray.map(e => <Route key = {e.key} path = {e.pathWay} component= {process.env.PUBLIC_URL + e.content} exact />)}
            </Switch>
         </div>
     );
