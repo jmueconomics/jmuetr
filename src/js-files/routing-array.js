@@ -15,22 +15,22 @@ const routing = [
     },
     {
         key: 2,
-        pathWay: "/#/" + _.lowerCase("github"),
+        pathWay: "/" + _.lowerCase("github"),
         content: Github
     },
     {
         key: 3,
-        pathWay: "/#/" + _.lowerCase("Data Science"),
+        pathWay: "/" + _.lowerCase("Data Science"),
         content: DataScience
     },
     {
         key: 4,
-        pathWay: "/#/" + _.lowerCase("R"),
+        pathWay: "/" + _.lowerCase("R"),
         content: R
     },
     {
         key: 5,
-        pathWay: "/#/" + _.lowerCase("Python"),
+        pathWay: "/" + _.lowerCase("Python"),
         content: Python
     },
     {
