@@ -35,7 +35,7 @@ const routing = [
     },
     {
         key: 6,
-        pathWay: "/#/" + _.lowerCase("SQL"),
+        pathWay: "/" + _.lowerCase("SQL"),
         content: SQL
     }
 ];
