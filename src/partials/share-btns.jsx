@@ -13,7 +13,7 @@ import {
 export default class ShareBtns extends Component {
     
     render() {
-        const shareUrl = 'https://jmuetr.herokuapp.com/';
+        const shareUrl = 'https://jmueconomicsalumni.github.io/jmuetr';
         const title = 'JMU Economics Alumni | Technical Resources for Github, Economics and Data Science | Check it out';
 
         return(
