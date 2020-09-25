@@ -17,10 +17,10 @@ const HoverDropdown = (props) => {
             title="Code"
             id="basic-nav-dropdown"
         >
-        <NavDropdown.Item href={"/" + _.lowerCase("Data Science")}>Data Science</NavDropdown.Item>
-        <NavDropdown.Item href={"/" + _.lowerCase("R")}>R</NavDropdown.Item>
-        <NavDropdown.Item href={"/" + _.lowerCase("Python")}>Python</NavDropdown.Item>
-        <NavDropdown.Item href={"/" + _.lowerCase("SQL")}>SQL</NavDropdown.Item>
+        <NavDropdown.Item href={"/" + _.lowerCase("Jmuetr") + "/#/" + _.lowerCase("Data Science")}>Data Science</NavDropdown.Item>
+        <NavDropdown.Item href={"/" + _.lowerCase("Jmuetr") + "/#/" + _.lowerCase("R")}>R</NavDropdown.Item>
+        <NavDropdown.Item href={"/" + _.lowerCase("Jmuetr") + "/#/" + _.lowerCase("Python")}>Python</NavDropdown.Item>
+        <NavDropdown.Item href={"/" + _.lowerCase("Jmuetr") + "/#/" + _.lowerCase("SQL")}>SQL</NavDropdown.Item>
         </NavDropdown>
         </div>
     );
