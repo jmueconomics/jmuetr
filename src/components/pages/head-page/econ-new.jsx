@@ -13,7 +13,7 @@ class News extends React.Component {
   getArticles() {
     axios
       .get(
-        "http://newsapi.org/v2/everything?q=Economics&sortBy=popularity&apiKey=" + process.env.REACT_APP_API_KEY
+        "http://newsapi.org/v2/everything?q=Economics&sortBy=popularity&apiKey=9dfc96ea507640708328ae6136da2045"
       )
       .then(response => {
           console.log(response)
